@@ -1,4 +1,4 @@
-# Python-Hackathon-StarterKit
+# StartupWeekEndProject
 
 ## これなに？
 
