@@ -1,169 +1,114 @@
-<ion-content>
-  <noscript><img height="1" width="1"
-                 src="https://www.facebook.com/tr?id=170840756972143&amp;ev=PageView&amp;noscript=1"></noscript>
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW5Z3PH" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe>
-  </noscript>
+<ion-app>
 
-  <div id="Container">
-    <a id="Top" name="Top"></a>
+  <ion-content>
+    <noscript><img height="1" width="1"
+        src="https://www.facebook.com/tr?id=170840756972143&amp;ev=PageView&amp;noscript=1"></noscript>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PW5Z3PH" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe>
+    </noscript>
 
-    <!--
+    <div id="Container">
+      <a id="Top" name="Top"></a>
+
+      <!--
     //////////////////////////////////////////////////////////////////////////////
     Header
     //////////////////////////////////////////////////////////////////////////////
     -->
-    <header id="Header" role="banner">
-      <nav>
-        <ul>
-          <li><a href="#Tool">機能紹介</a></li>
-          <li><a href="#Scene">活用シーン</a></li>
-          <li><a href="#Flow">ご利用方法</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header id="Header" role="banner">
+        <nav>
+          <ul>
+            <li><a href="#Tool">機能紹介</a></li>
+            <li><a href="#Scene">活用シーン</a></li>
+            <li><a href="#Flow">ご利用方法</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <!--
+      <!--
     //////////////////////////////////////////////////////////////////////////////
     Content
     //////////////////////////////////////////////////////////////////////////////
     -->
-    <div id="Content">
+      <div id="Content">
 
-      <div id="FirstView">
-        <h3 id="app_name"><i></i>ネクタス</h3>
-        <p class="copy">だれでも<span>・</span><br>いますぐ<span>・</span><br>かんたん</p>
-        <p class="tag"><span><i></i>チャットボットにより</span><br>適正職業を診断！</p>
-      </div><!-- #FirstView // -->
+        <div id="FirstView">
+          <h3 id="app_name"><i></i>ネクタス</h3>
+          <p class="copy">だれでも<span>・</span><br>いますぐ<span>・</span><br>かんたん</p>
+          <p class="tag"><span><i></i>チャットボットにより</span><br>適正職業を診断！</p>
+        </div><!-- #FirstView // -->
 
-      <main id="Main">
-        <section id="Solution">
-          <div class="section_inline">
-            <div class="sample">
-              <div class="c-phone">
-                <div class="c-phone-body">
-                  <ul>
-                    <li class="c-phone-item"><img src="../../assets/chatting/check1.jpg"></li>
-                  </ul>
+        <main id="Main">
+          <section id="Solution">
+            <div class="section_inline">
+              <div class="sample">
+                <div class="c-phone">
+                  <div class="c-phone-body">
+                    <ul>
+                      <li class="c-phone-item"><img src="../../assets/chatting/check1.jpg"></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <h2>チャットボットで<br>あなたに合った職業をご案内！</h2>
+            </div><!-- .section_inline // -->
+          </section><!-- #Solution // -->
+
+          <section id="About">
+            <div class="section_inline">
+              <div class="box-list">
+                <div class="box">
+                  <h3>だれでも</h3>
+                  <p>業界に限りなく<br>どなたでも気軽に相談できます</p>
+                  <!-- .box // -->
+                </div>
+                <div class="box">
+                  <h3>いますぐ</h3>
+                  <p>登録不要！<br>すぐにご利用いただけます</p>
+                  <!-- .box // -->
+                </div>
+                <div class="box">
+                  <h3>かんたん</h3>
+                  <a href="#Flow">
+                    <p>QRコードを読み取って相談開始</p>
+                  </a>
+                  <!-- .box // -->
+                </div>
+              </div><!-- .section_inline // -->
+            </div><!-- #About // -->
+          </section>
+
+          <section id="Flow">
+            <h2>ご利用の流れ</h2>
+
+            <div class="section_inline addBlock">
+              <section class="step-item">
+                <p class="step-text">右のQRコードを読み込むと<br>チャットボットが利用できます。</p>
+              </section>
+              <div id="qr">
+                <img src="../../assets/qr/LINE@NECTUS.png">
+              </div>
             </div>
-            <h2>チャットボットで<br>あなたに合った職業をご案内！</h2>
-          </div><!-- .section_inline // -->
-        </section><!-- #Solution // -->
+          </section>
 
-        <section id="About">
-          <div class="section_inline">
-            <div class="box-list">
-              <div class="box">
-                <h3>だれでも</h3>
-                <p>業界に限りなく<br>どなたでも気軽に相談できます</p>
-                <!-- .box // --></div>
-              <div class="box">
-                <h3>いますぐ</h3>
-                <p>登録不要！<br>すぐにご利用いただけます</p>
-                <!-- .box // --></div>
-              <div class="box">
-                <h3>かんたん</h3>
-                <a href="#Flow"><p>QRコードを読み取って相談開始</p></a>
-                <!-- .box // --></div>
-            </div><!-- .section_inline // --></div><!-- #About // --></section>
+          <!-- #Main // -->
+        </main>
 
-        <section id="Tool">
-          <div class="section_inline">
-            <h2>機能紹介</h2>
+      </div><!-- #Content  // -->
 
-            <div id="Story" class="box">
-              <div class="capture">
-                <video src="assets/movie/tool_scenario.mp4" playsinline muted loop autoplay></video>
-              </div>
-              <div class="info">
-                <h3><i></i>シナリオ</h3>
-                <p>選択形式でユーザーが求める情報を自動応答するチャットボットの基本機能</p>
-                <!-- .info // --></div>
-              <!-- .box // --></div>
-
-            <div id="Keyword" class="box">
-              <div class="capture">
-                <video src="assets/movie/tool_keyword.mp4" playsinline muted loop autoplay></video>
-              </div>
-              <div class="info">
-                <h3><i></i>キーワード</h3>
-                <p>ユーザーが入力したキーワードへの応答やシナリオを自動返信</p>
-                <!-- .info // --></div>
-              <!-- .box // --></div>
-
-            <div id="Message" class="box">
-              <div class="capture">
-                <video src="assets/movie/tool_talk.mp4" playsinline muted loop autoplay></video>
-              </div>
-              <div class="info">
-                <h3><i></i>トーク</h3>
-                <p>有人チャット対応やユーザーの利用履歴・パーソナルデータを確認</p>
-                <!-- .info // --></div>
-              <!-- .box // --></div>
-
-            <div id="Report" class="box">
-              <div class="capture">
-                <video src="assets/movie/tool_report.mp4" playsinline muted loop autoplay></video>
-              </div>
-              <div class="info">
-                <h3><i></i>レポート</h3>
-                <p>チャットボットの利用状況や入力されたキーワード・アンケートで集めたデータを一覧で確認</p>
-                <!-- .info // --></div>
-              <!-- .box // --></div>
-
-            <div id="Question" class="box">
-              <div class="capture">
-                <video src="assets/movie/tool_question.mp4" playsinline muted loop autoplay></video>
-              </div>
-              <div class="info">
-                <h3><i></i>アンケート</h3>
-                <p>質問と選択肢を設定しユーザーのパーソナルデータを収集</p>
-                <!-- .info // --></div>
-              <!-- .box // --></div>
-
-            <div id="Push" class="box">
-              <div class="capture">
-                <video src="assets/movie/tool_push.mp4" playsinline muted loop autoplay></video>
-              </div>
-              <div class="info">
-                <h3><i></i>配信</h3>
-                <p>管理画面上から配信やアンケートで収集したパーソナルデータを元にセグメント配信も可能</p>
-                <!-- .info // --></div>
-              <!-- .box // --></div>
-
-            <!-- .section_inline // --></div><!-- #Tool // --></section>
-
-        <section id="Flow">
-          <h2>ご利用の流れ</h2>
-
-          <div class="section_inline addBlock">
-            <section class="step-item">
-              <p class="step-text">右のQRコードを読み込むと<br>チャットボットが利用できます。</p>
-            </section>
-            <div id="qr">
-              <img src="../../assets/qr/LINE@NECTUS.png">
-            </div>
-          </div>
-        </section>
-
-        <!-- #Main // --></main>
-
-    </div><!-- #Content  // -->
-
-    <!--
+      <!--
     //////////////////////////////////////////////////////////////////////////////
     Footer
     //////////////////////////////////////////////////////////////////////////////
     -->
-  </div><!-- #Container // -->
+    </div><!-- #Container // -->
 
-  <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-  <script src="../cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
-  <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="assets/js/lp/common.2e5a965e2aa57fdc8d0dc05dfa3e5929.js"></script>
-  <script src="assets/js/lp/library.fa9f736e5f81575edde82544e1ae7a4d.js"></script>
-  <script src="assets/js/lp/top.bf181ddfe48ec7da9c4d13dd372567c1.js"></script>
-</ion-content>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/lp/common.2e5a965e2aa57fdc8d0dc05dfa3e5929.js"></script>
+    <script src="assets/js/lp/library.fa9f736e5f81575edde82544e1ae7a4d.js"></script>
+    <script src="assets/js/lp/top.bf181ddfe48ec7da9c4d13dd372567c1.js"></script>
+  </ion-content>
+</ion-app>
